@@ -19,6 +19,6 @@ class MessageController extends Controller
     public function incoming(Request $request)
     {
     	Log::info('Log message: '. $request);
-    	var_dump($request);
+    	dd($request);
     }
 }
