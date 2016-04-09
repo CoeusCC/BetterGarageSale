@@ -1,4 +1,14 @@
-/bootstrap/compiled.php
+### Laravel ###
+/vendor/*
+!/vendor/composer/
+node_modules/
+
+# Laravel 5 & Lumen specific
+bootstrap/cache/
+storage/
 .env.*.php
 .env.php
 .env
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
