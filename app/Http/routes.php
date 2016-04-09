@@ -11,10 +11,9 @@
 |
 */
 
-//use Twilio;
-
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/quick-message', 'MessageController@quickMessage');
+Route::post('/incoming', 'MessageController@incoming');
