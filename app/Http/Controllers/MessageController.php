@@ -19,6 +19,6 @@ class MessageController extends Controller
     public function incoming(Request $request)
     {
     	Log::info('Log message: '. $request);
-    	//$test = Twilio::message('+19795716568', 'FOO');
+    	var_dump($request);
     }
 }
