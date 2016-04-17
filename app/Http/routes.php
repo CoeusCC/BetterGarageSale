@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::get('/quick-message', 'MessageController@quickMessage');
 Route::post('/incoming', 'MessageController@incoming');
 Route::get('/incoming', 'MessageController@incoming');
+Route::get('/import', 'MessageController@import');
