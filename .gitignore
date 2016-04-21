@@ -11,7 +11,7 @@ storage/
 .env
 
 ### Assets ###
-/public/images
+public/images
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
