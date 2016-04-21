@@ -42,7 +42,7 @@
     </head>
     <body>
         <bgs-stat-counter>
-            Pictures uploaded: 0
+            Pictures uploaded: <em>{{ $photosUploaded }}</em>
         </bgs-stat-counter>
         <div class="container">
             <div class="content">

@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$count = App\Photo::totalUploaded();
+
+    return view('welcome')->with('photosUploaded', $count);
 });
 
 Route::post('/incoming', 'ListingsController@incoming');
