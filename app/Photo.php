@@ -34,7 +34,7 @@ class Photo extends Model
 				DB::rollback();
 			}
 		}
-		dd('far out');
+		
 		return true;
 
     }

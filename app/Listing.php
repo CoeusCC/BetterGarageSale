@@ -32,10 +32,10 @@ class Listing extends Model
     		$url = urldecode(request()->MediaUrl0);
     		$photo = new Photo;
     		$photo->attach($url, $listing);
-    		dd($photo);
+    		// Add verification that photo saved or return error
     	}
 
-
+    	return "Success";
     }
 
     public function photos(){
