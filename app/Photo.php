@@ -39,7 +39,16 @@ class Photo extends Model
 
     }
 
-    public function listing(){
+    /*
+	 *	Return the total number of photos currently in the databse
+    */
+    public static function totalUploaded() {
+
+    	return Photo::all()->count();
+
+    }
+
+    public function listing() {
 
         return $this->belongsTo(Listing::class);
 
