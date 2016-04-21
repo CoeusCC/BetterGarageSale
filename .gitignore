@@ -1,6 +1,5 @@
 ### Laravel ###
 /vendor/*
-!/vendor/composer/
 node_modules/
 
 # Laravel 5 & Lumen specific
