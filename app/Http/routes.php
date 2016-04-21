@@ -15,7 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/quick-message', 'MessageController@quickMessage');
-Route::post('/incoming', 'MessageController@incoming');
-Route::get('/incoming', 'MessageController@incoming');
-Route::get('/import', 'MessageController@import');
+Route::post('/incoming', 'ListingsController@incoming');
+Route::get('/import', 'ListingsController@import');

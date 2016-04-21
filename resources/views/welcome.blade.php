@@ -18,6 +18,11 @@
                 font-weight: 100;
                 font-family: 'Lato';
             }
+            bgs-stat-counter {
+                position: absolute;
+                top: 1em;
+                left: 1em;
+            }
 
             .container {
                 text-align: center;
@@ -36,9 +41,15 @@
         </style>
     </head>
     <body>
+        <bgs-stat-counter>
+            Pictures uploaded: 0
+        </bgs-stat-counter>
         <div class="container">
             <div class="content">
-                <div class="title">Better Garage Sale</div>
+                <div class="title">Find out more<br>
+                about the development of<br>
+                <em><strong>Better Garage Sale</strong></em><br>
+                at <a href="http://patrick.zeinert.us" target="_blank">Patrick.Zeinert.US</a></div>
             </div>
         </div>
     </body>
